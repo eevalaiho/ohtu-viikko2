@@ -1,11 +1,17 @@
 
 package ohtu.verkkokauppa;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tuote implements ITuote {
     private int id;
     private String nimi;
     private int hinta;
 
+
+    public Tuote() {}
+    
     public Tuote(int id, String nimi, int hinta) {
         this.id = id;
         this.nimi = nimi;

@@ -1,5 +1,6 @@
 package ohtu.verkkokauppa;
 
+
 public class Kauppa {
 
     private IVarasto varasto;
